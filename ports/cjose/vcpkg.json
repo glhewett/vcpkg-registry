@@ -1,0 +1,6 @@
+{
+  "name": "cjose",
+  "version": "0.6.1",
+  "description": "Implementation of JOSE for C/C++",
+  "homepage": "https://github.com/cisco/cjose"
+}
