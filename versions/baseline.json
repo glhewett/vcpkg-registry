@@ -1,5 +1,8 @@
 {
-    "baseline": {
+  "default": {
+    "cjose": {
+      "baseline": "0.6.1",
+      "port-version": 0
     }
+  }
 }
-

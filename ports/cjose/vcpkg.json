@@ -2,5 +2,20 @@
   "name": "cjose",
   "version": "0.6.1",
   "description": "Implementation of JOSE for C/C++",
-  "homepage": "https://github.com/cisco/cjose"
+  "homepage": "https://github.com/cisco/cjose",
+  "default-features": [
+    "default-features"
+  ],
+  "features": {
+    "default-features": {
+      "description": "Features installed by default",
+      "dependencies": [
+        "jansson",
+        {
+          "name": "openssl",
+          "version>=": "1.1.1n"
+        }
+      ]
+    }
+  }
 }
