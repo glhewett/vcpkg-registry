@@ -1,0 +1,23 @@
+{
+  "name": "mlspp",
+  "version": "0.1",
+  "description": "Implementation of the proposed Messaging Layer Security protocol in C++",
+  "homepage": "https://github.com/cisco/mlspp",
+  "default-features": [
+    "default-features"
+  ],
+  "features": {
+    "sanatizers": {
+      "description": "Enable sanitizers"
+    },
+    "default-features": {
+      "description": "Features installed by default",
+      "dependencies": [
+        {
+          "name": "openssl",
+          "version>=": "1.1.1n"
+        }
+      ]
+    }
+  }
+}
