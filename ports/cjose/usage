@@ -1,0 +1,4 @@
+The package cjose provides CMake targets:
+
+    find_package(cjose CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE cjose::cjose)

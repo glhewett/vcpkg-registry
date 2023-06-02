@@ -11,9 +11,13 @@
       "description": "Features installed by default",
       "dependencies": [
         "jansson",
-        {
+        {,
           "name": "openssl",
           "version>=": "1.1.1n"
+        },
+        {
+          "name": "vcpkg-cmake-get-vars",
+          "host": true
         }
       ]
     }

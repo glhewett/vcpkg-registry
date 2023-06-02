@@ -30,4 +30,11 @@ vcpkg_install_make()
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/doc")
-file(INSTALL "${SOURCE_PATH}/LICENSE" DESTINATION "${CURRENT_PACKAGES_DIR}/share/cjose" RENAME copyright)
+
+file(INSTALL "${SOURCE_PATH}/LICENSE"
+     DESTINATION "${CURRENT_PACKAGES_DIR}/share/cjose"
+     RENAME copyright)
+file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/cjoseConfig.cmake"
+     DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
+file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage"
+     DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
