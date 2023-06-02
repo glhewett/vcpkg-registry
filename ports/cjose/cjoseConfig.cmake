@@ -1,5 +1,5 @@
-get_filename_component(PACKAGE_PREFIX_DIR "build/vcpkg_installed/arm64-osx/share/cjose/../../" ABSOLUTE)
-#get_filename_component(PACKAGE_PREFIX_DIR "${CMAKE_CURRENT_LIST_DIR}/../../" ABSOLUTE)
+get_filename_component(PACKAGE_PREFIX_DIR "${CMAKE_CURRENT_LIST_DIR}/../../" ABSOLUTE)
+
 find_path(CJOSE_INCLUDE_DIR 
           NAMES cjose/cjose.h
           PATHS "${PACKAGE_PREFIX_DIR}/include"

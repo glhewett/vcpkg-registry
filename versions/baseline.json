@@ -2,7 +2,7 @@
   "default": {
     "cjose": {
       "baseline": "0.6.1",
-      "port-version": 1
+      "port-version": 2
     },
     "mlspp": {
       "baseline": "0.1",
